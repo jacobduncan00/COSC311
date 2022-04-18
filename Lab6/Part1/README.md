@@ -1,0 +1,3 @@
+# How  does  metric=‘cosine’ compute the  distance  between  data  points,  and  why  might  this  perform  better  than the Euclidean metric (default) here?
+
+Cosine similarity looks at the angle between two vectors where as Euclidean similarity looks at only the raw distance between two points. Let's assume OA, OB and OC are three vectors. The points A, B and C form an equilateral triangle. This means that the Euclidean distance of these points are the same (AB=BC=CA). In this case, the Euclidean distance will not be effective in deciding which of the three vectors are similar to each other. Although the magnitude (length) of the vectors are different. Cosine similarity measure shows that OA is more similar to OB than to OC.
